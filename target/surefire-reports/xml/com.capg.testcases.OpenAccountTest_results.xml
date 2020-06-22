@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="10.679">
+           time="1.106">
   <properties />
   
   
-            <testcase name="openAccountTest" time="10.679" classname="com.capg.testcases.OpenAccountTest" />
+            <testcase name="openAccountTest" time="1.106" classname="com.capg.testcases.OpenAccountTest" />
       
 </testsuite>

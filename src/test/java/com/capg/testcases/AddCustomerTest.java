@@ -36,7 +36,7 @@ public class AddCustomerTest extends TestBase{
 		type("postcode",data.get("postcode"));
 		click("addbtn");
 		Alert alert=wait.until(ExpectedConditions.alertIsPresent());
-		
+		//testing git
 		Assert.assertTrue(alert.getText().contains(data.get("alerttext")));
 		Thread.sleep(3000);
 		alert.accept();

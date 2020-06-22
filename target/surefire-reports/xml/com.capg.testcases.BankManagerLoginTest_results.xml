@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.399">
+           time="13.094">
   <properties />
   
   
-            <testcase name="loginasBankManager" time="5.399" classname="com.capg.testcases.BankManagerLoginTest" />
+            <testcase name="loginasBankManager" time="13.094" classname="com.capg.testcases.BankManagerLoginTest" />
       
 </testsuite>

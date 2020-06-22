@@ -4,13 +4,13 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="37.506">
+           time="37.567">
   <properties />
   
   
-            <testcase name="addCustomerTest" time="9.320" classname="com.capg.testcases.AddCustomerTest" />
-                <testcase name="addCustomerTest" time="9.558" classname="com.capg.testcases.AddCustomerTest" />
-                <testcase name="addCustomerTest" time="9.331" classname="com.capg.testcases.AddCustomerTest" />
-                <testcase name="addCustomerTest" time="9.297" classname="com.capg.testcases.AddCustomerTest" />
+            <testcase name="addCustomerTest" time="9.362" classname="com.capg.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="9.483" classname="com.capg.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="9.345" classname="com.capg.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="9.377" classname="com.capg.testcases.AddCustomerTest" />
       
 </testsuite>
