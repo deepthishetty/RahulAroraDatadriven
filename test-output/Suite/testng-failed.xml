@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.capg.listeners.CustomListeners"/>
+  </listeners>
+  <test name="AddcustomerTest(failed)">
+    <classes>
+      <class name="com.capg.testcases.OpenAccountTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.capg.testcases.OpenAccountTest -->
+      <class name="com.capg.testcases.AddCustomerTest">
+        <methods>
+          <include name="addCustomerTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.capg.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- AddcustomerTest(failed) -->
+  <test name="OpenAccounttest(failed)">
+    <classes>
+      <class name="com.capg.testcases.OpenAccountTest">
+        <methods>
+          <include name="openAccountTest" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.capg.testcases.OpenAccountTest -->
+    </classes>
+  </test> <!-- OpenAccounttest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

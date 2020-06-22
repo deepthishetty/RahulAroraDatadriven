@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Customer added succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Customer added succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Customer added succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Customer added succesfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46933" started-at="2020-06-22T10:35:31Z" finished-at="2020-06-22T10:36:18Z">
+    <groups>
+    </groups>
+    <test name="BankmanagerloginTest" duration-ms="5951" started-at="2020-06-22T10:35:31Z" finished-at="2020-06-22T10:35:37Z">
+      <class name="com.capg.testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginasBankManager()[pri:0, instance:com.capg.testcases.BankManagerLoginTest@1c7696c6]" name="loginasBankManager" duration-ms="5411" started-at="2020-06-22T16:05:31Z" finished-at="2020-06-22T16:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginasBankManager -->
+      </class> <!-- com.capg.testcases.BankManagerLoginTest -->
+    </test> <!-- BankmanagerloginTest -->
+    <test name="AddcustomerTest" duration-ms="39191" started-at="2020-06-22T10:35:37Z" finished-at="2020-06-22T10:36:16Z">
+      <class name="com.capg.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.capg.testcases.AddCustomerTest@2e8c1c9b]" name="addCustomerTest" duration-ms="9800" started-at="2020-06-22T16:05:37Z" data-provider="dp" finished-at="2020-06-22T16:05:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully , postcode=560102, lastname=Ar, runmode=Y, firstname=Rama}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer added succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.capg.testcases.AddCustomerTest@2e8c1c9b]" name="addCustomerTest" duration-ms="9625" started-at="2020-06-22T16:05:47Z" data-provider="dp" finished-at="2020-06-22T16:05:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully , postcode=560103, lastname=Shetty, runmode=Y, firstname=Shalini}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer added succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.capg.testcases.AddCustomerTest@2e8c1c9b]" name="addCustomerTest" duration-ms="9823" started-at="2020-06-22T16:05:57Z" data-provider="dp" finished-at="2020-06-22T16:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully , postcode=560104, lastname=Shetty, runmode=Y, firstname=Nanda}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer added succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.capg.testcases.AddCustomerTest@2e8c1c9b]" name="addCustomerTest" duration-ms="9699" started-at="2020-06-22T16:06:07Z" data-provider="dp" finished-at="2020-06-22T16:06:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully , postcode=560105, lastname=Hegde, runmode=Y, firstname=Medha}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer added succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- com.capg.testcases.AddCustomerTest -->
+    </test> <!-- AddcustomerTest -->
+    <test name="OpenAccounttest" duration-ms="1767" started-at="2020-06-22T10:36:16Z" finished-at="2020-06-22T10:36:18Z">
+      <class name="com.capg.testcases.OpenAccountTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.capg.testcases.OpenAccountTest@15bb5034]" name="setup" is-config="true" duration-ms="9186" started-at="2020-06-22T16:05:22Z" finished-at="2020-06-22T16:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.capg.testcases.OpenAccountTest@15bb5034]" name="openAccountTest" duration-ms="1722" started-at="2020-06-22T16:06:16Z" data-provider="dp" finished-at="2020-06-22T16:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, customer=Nanda Shetty}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.capg.testcases.OpenAccountTest@15bb5034]" name="teardown" is-config="true" duration-ms="1952" started-at="2020-06-22T16:06:18Z" finished-at="2020-06-22T16:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.capg.testcases.OpenAccountTest -->
+    </test> <!-- OpenAccounttest -->
+  </suite> <!-- Suite -->
+</testng-results>

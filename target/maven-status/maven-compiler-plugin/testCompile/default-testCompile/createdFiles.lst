@@ -1,0 +1,9 @@
+com\capg\utilities\ExtentManager.class
+com\capg\listeners\CustomListeners.class
+com\capg\testcases\AddCustomerTest.class
+com\capg\testcases\OpenAccountTest.class
+com\capg\base\TestBase.class
+com\capg\utilities\ExcelReader.class
+com\cpg\rough\TestProperties.class
+com\capg\testcases\BankManagerLoginTest.class
+com\capg\utilities\TestUtils.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddcustomerTest"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="37.506">
+  <properties />
+  
+  
+            <testcase name="addCustomerTest" time="9.320" classname="com.capg.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="9.558" classname="com.capg.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="9.331" classname="com.capg.testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="9.297" classname="com.capg.testcases.AddCustomerTest" />
+      
+</testsuite>
